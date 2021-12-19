@@ -42,7 +42,7 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
     // Try to load audio from a source and catch any errors.
     try {
       await _player
-          .setAudioSource(AudioSource.uri(Uri.file("audio/nature.mp3")));
+          .setAudioSource(AudioSource.uri(Uri.file("audio/SpringSketch.mp3")));
     } catch (e) {
       print("Error loading audio source: $e");
     }
